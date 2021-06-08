@@ -1,5 +1,7 @@
 # pingpongAI
-Created an AI to play pingpong 
+Created an AI to play pingpong.
+
+NOTE: Important to check requirements.txt. The py files may not be run properly on python 3.9. 
 
 ai_creation is the main py file to create the AIs 
 
