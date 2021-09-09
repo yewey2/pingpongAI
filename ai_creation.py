@@ -211,7 +211,6 @@ class Env():
             for event in events:
                 if event.type == pygame.QUIT:
                     SHUTDOWN = True
-            time.sleep(0.04)
             win.fill((0,0,0))
             for wall in walllist:
                 pygame.draw.rect(win, (255,255,255), wall.pos)
