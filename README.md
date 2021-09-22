@@ -1,6 +1,6 @@
 # pingpongAI
 Created an AI using DQN reinforcement learning to play pingpong.
-NOTE: Important to check requirements.txt. The py files may not run properly on python 3.9. 
+
 
 ai_load.py loads the best AI I have created. Run ai_load to see the results! 
 
