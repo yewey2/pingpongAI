@@ -9,7 +9,7 @@ import numpy as np
 from collections import deque
 from keras.models import Sequential
 from keras.layers import Dense
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 import os
 
 
@@ -211,7 +211,6 @@ class Env():
             for event in events:
                 if event.type == pygame.QUIT:
                     SHUTDOWN = True
-            time.sleep(0.04)
             win.fill((0,0,0))
             for wall in walllist:
                 pygame.draw.rect(win, (255,255,255), wall.pos)

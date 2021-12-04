@@ -1,12 +1,11 @@
 # pingpongAI
-Created an AI to play pingpong.
+Created an AI using DQN reinforcement learning to play pingpong.
 
-NOTE: Important to check requirements.txt. The py files may not run properly on python 3.9. 
 
-ai_creation is the main py file to create the AIs 
+ai_load.py loads the best AI I have created. Run ai_load to see the results! 
 
-ai_training trains the AI. 
+ai_creation.py is the main py file to create the AIs 
 
-ai_load loads the best AI I have created. Run ai_load to see the results! 
+ai_training.py trains the AI. 
 
 You can look at demo_video for a preview of the AI I have created. 
